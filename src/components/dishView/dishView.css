@@ -1,0 +1,25 @@
+
+
+.dishView-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.dishView-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.dishView-images img{
+    margin: 5px;
+}
+
+.recommendations{
+    text-align: right;
+    margin: 5px;
+}
+
+
+

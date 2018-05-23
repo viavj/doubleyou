@@ -1,0 +1,128 @@
+p {
+    margin: 0;
+  }
+
+  .invalid-field{
+      border: 2px solid red !important;
+  }
+
+  button:focus{
+      outline: none;
+  }
+
+.navBar{
+    display: flex;
+    max-width: 90%;
+    min-width: 80%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section{
+    background: linear-gradient(#ffa87a, #ff0000);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-family: Georgia, serif;
+    color: white;
+    min-width: 15%;
+    justify-content: center;
+    min-height: 40px;
+}
+
+.section:nth-child(1){
+    border-bottom-left-radius: 10px;
+}
+
+.section:nth-child(5){
+    border-top-right-radius: 10px;
+}
+
+.section-login{
+    padding: 5px;
+    background: linear-gradient(#d9e021, #736357);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-login p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.section-login input{
+    border: 1px solid black;
+    margin: 0 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-login button{
+    background: linear-gradient(#808080, #000000);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.right-separator{
+    border-right: 2px solid black;
+}
+
+  .display-none{
+      display: none !important
+  }
+
+.fields-container{
+    display: flex;
+
+}
+
+
+.dropdown {
+    position: relative;
+    flex-direction: column;
+}
+
+.dropdown-content {
+    transition: 3s;
+    margin:0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background: linear-gradient(#ffa87a, #ff0000);
+}
+
+.dropdown-content h3{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, serif;
+}
+
+.dropdown-content p{
+    color: black;
+    font-size: 10px;
+    margin: 3px;
+}
+
+.dropdown-content h6 {
+    text-decoration: underline;
+    margin: 5px;
+    text-align: right;
+}
+
+.dropdown-content p, h6 {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+}
+
