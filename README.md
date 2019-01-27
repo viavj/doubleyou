@@ -3,7 +3,7 @@
 2. Puedern ver el DB completo aqui https://testproj-10e4a.firebaseio.com/doubleyou.json
 
 
-Prueba técnica Frontend Senior
+<b>Prueba técnica Frontend Senior</b>
 
 
 El objetivo es crear un menú de navegación y un sistema de login ( capturas/01.jpg ).
